@@ -56,6 +56,10 @@ function takeCommand(message){
     else if(message.includes("what is your name")){
         speak("i am lucas")
     }
+        
+    else if(message.includes("what is data base")){
+        speak("collection of data")
+    }
     else if(message.includes("you are doveloped by")){
         speak(" nandha") 
     }
